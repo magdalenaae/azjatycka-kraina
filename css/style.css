@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-image {  
+    background-image: url(../img/abstract-atmospheric-atmospheric-evening-1090977.jpg);
+    background-size: cover;
+    color: #E6FFE7;
+}
+
+.transparent-background::before {
+    content: '';
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: rgba(255,255,255,0.1);
+    margin-left: -40%;
+}
+
+/* Header */
+
+header .social-links {
+    text-align: right;
+    padding: 20px 140px;
+}
+
+header .social-links a {
+    position: relative;
+    font-size: 30px;
+    padding: 0 10px;
+    color: #E6FFE7;
+    transition: 0.5s;
+}
+
+header .social-links a:hover {
+    color: #85A696;
+}
+
+header .company-logo i {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navigation */
+
+.main-navigation {
+    position: sticky;
+    top: 0;
+    height: 80px;
+}
+
+.main-navigation .main-nav {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.main-navigation .main-nav .nav-menu-item {
+    display: inline-block;
+}
+
+.main-navigation .main-nav .nav-menu-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px;
+    color: #E6FFE7;
+    transition: 0.5s;
+}
+
+.main-navigation .main-nav .nav-menu-item a:hover {
+    color: #85A696;
+}
+
+.main-navigation hr {
+    width: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
